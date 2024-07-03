@@ -4,11 +4,11 @@ import { createSlice } from '@reduxjs/toolkit';
 const initialState = [
     {
         id: 1,
-        value:0,
+        value:6,
     },
     {
         id: 2,
-        value:0,
+        value:10,
     }
 ];
 
