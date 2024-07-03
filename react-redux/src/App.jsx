@@ -4,6 +4,7 @@ import Counter from "./components/Counter.jsx";
 import Stats from "./components/Stats.jsx";
 import { decrement, increment } from "./features/counters/countersSlice.js";
 import Posts from "./components/Posts.jsx";
+import Todos from "./components/Todos.jsx";
 
 function App() {
   const counters = useSelector((state) => state.counters);
@@ -32,6 +33,7 @@ function App() {
       ))}
       <Stats totalCount={totalCount} />
       <Posts/>
+      <Todos/>
     </div>
   );
 }
