@@ -4,7 +4,7 @@
     font-family: sans-serif;
 }
 
-.counter, .stats{
+.counter, .stats, .posts, .todos{
     background-color:  rgb(244, 244, 244);
     padding: 10px;
     margin: 10px 0;
@@ -51,4 +51,14 @@ button + button{
 
 .total{
     font-size: 2.5rem;
+}
+
+
+.posts, .todos{
+    list-style:inside;
+    text-align:start;
+}
+
+.posts li, .todos li{
+    margin-bottom: 10px;
 }
