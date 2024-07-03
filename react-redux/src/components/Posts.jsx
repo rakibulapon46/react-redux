@@ -28,8 +28,8 @@ export default function Posts() {
     }
 
     return(
-        <>
+        <div className="posts">
         {content}
-        </>
+        </div>
     )
 }
