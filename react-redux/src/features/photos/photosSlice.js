@@ -28,7 +28,7 @@ const photosSlice = createSlice({
             state.isLoading = false;
             state.photos = action.payload;
         })
-        .addCase(fetchPhotos.pending, (state, action) => {
+        .addCase(fetchPhotos.rejected, (state, action) => {
             state.isLoading = false;
             state.isError = true;
             state.error = action.error?.message;
