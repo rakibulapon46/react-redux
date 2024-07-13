@@ -4,7 +4,7 @@
     font-family: sans-serif;
 }
 
-.counter, .stats, .posts, .todos, .comments, .users{
+.counter, .stats, .posts, .todos, .comments, .users, .albums{
     background-color:  rgb(244, 244, 244);
     padding: 10px;
     margin: 10px 0;
@@ -54,11 +54,17 @@ button + button{
 }
 
 
-.posts, .todos, .comments, .users{
+.posts, .todos, .comments, .users, .albums{
     list-style:inside;
     text-align:start;
 }
 
-.posts li, .todos li, .comments li, .users li{
+.posts li, .todos li, .comments li, .users li, .albums li{
     margin-bottom: 10px;
+}
+
+.albums ul{
+    list-style:square;
+    margin-inline-start: 1rem;
+    margin-inline-end: 1rem;
 }
