@@ -8,6 +8,7 @@ import Todos from "./components/Todos.jsx";
 import Photos from "./components/Photos.jsx";
 import Comments from "./components/Comments.jsx";
 import Users from "./components/Users.jsx";
+import Albums from "./components/Albums.jsx";
 
 function App() {
   const counters = useSelector((state) => state.counters);
@@ -40,6 +41,7 @@ function App() {
       {/* <Photos/> */}
       <Comments/>
       <Users/>
+      <Albums/>
     </div>
   );
 }
