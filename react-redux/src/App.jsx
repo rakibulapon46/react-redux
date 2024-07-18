@@ -38,7 +38,7 @@ function App() {
       <Stats totalCount={totalCount} />
       <Posts/>
       <Todos/>
-      {/* <Photos/> */}
+      <Photos/>
       <Comments/>
       <Users/>
       <Albums/>
